@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+        <style>
+            table tr {
+                border: 0px solid red;
+            }
+
+            table tr td {
+                border: 0px solid green;
+
+                height: 40px;
+                line-height: 40px;
+            }
+
+            table tr td:first-child { /* image container */
+                border: 0px solid red;
+
+                width: 50px;
+            }
+
+            table tr td:first-child img {
+                width: 50px;
+                height: 40px;
+            }
+
+            table tr td:last-child { /* delete link */
+                border: 0px solid red;
+
+                width: 50px;
+            }
+
+            table tr td:last-child img { /* delete link */
+                border: 0px solid red;
+
+                width: 25px;
+                height: 25px;
+            }
+
+        </style>
+
+        <script src="http://code.jquery.com/jquery.js"></script>
+    </head>
+    <body>
+        <h1>Page manager</h1>
+        <table class="table table-striped">
+            <tr>
+                <td>
+                    <a href="http://www.microsoft.com/surface/en-US"><img src="http://api.thumbalizr.com/?url=http://www.microsoft.com/surface/en-US&width=100"></a>
+                </td>
+                <td>
+                    <a class="visit" href="#">Home</a> <a href="#" class="icon-pencil"></a>
+                </td>
+                <td>
+                    <a class="delete" href="#"><img src="images/trash-icon@2x.png"></a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <a href="http://www.microsoft.com/surface/en-us/accessories/"><img src="http://api.thumbalizr.com/?url=http://www.microsoft.com/surface/en-us/accessories/&width=100"></a>
+                </td>
+                <td>
+                    <a class="visit" href="#">Accessories</a> <a href="#" class="icon-pencil"></a>
+                </td>
+                <td>
+                    <a class="delete" href="#"><img src="images/trash-icon@2x.png"></a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <a href="http://www.microsoft.com/surface/en-us/support/"><img src="http://api.thumbalizr.com/?url=http://www.microsoft.com/surface/en-us/support/&width=100"></a>
+                </td>
+                <td>
+                    <a class="visit" href="#">Support</a> <a href="#" class="icon-pencil"></a>
+                </td>
+                <td>
+                    <a class="delete" href="#"><img src="images/trash-icon@2x.png"></a>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
